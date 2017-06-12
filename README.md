@@ -1,2 +1,3 @@
-# amp-browser
-AMP Browser
+# AMP Browser
+
+Accelerate web browsing!
