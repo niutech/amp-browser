@@ -2,6 +2,7 @@
 <html amp lang="en">
   <head>
     <meta charset="utf-8">
+    <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
     <script async src="https://cdn.ampproject.org/v0.js"></script>
     <title>AMP Browser - accelerate web browsing</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
@@ -72,5 +73,20 @@
       <p><a class="btn" href="https://github.com/niutech/amp-browser/releases/download/59/ampbrowser-59.zip">Download AMP Browser 59 (beta) portable for 64-bit Windows</a></p>
       <p><a href="https://github.com/niutech/amp-browser/releases" target="_blank">All releases on GitHub</a></p>
     </div>
+    <amp-analytics type="googleanalytics">
+      <script type="application/json">
+      {
+        "vars": {
+          "account": "UA-200051-18"
+        },
+        "triggers": {
+          "trackPageview": {
+            "on": "visible",
+            "request": "pageview"
+          }
+        }
+      }
+      </script>
+      </amp-analytics>
   </body>
 </html>
